@@ -1,21 +1,22 @@
 ---
 import Base from '../layout/Base.astro';
+import Card from '../components/Card.astro';
 import { Markdown } from 'astro/components';
 ---
 
-<style>
 
-  img {
-    max-width: 100%;
-  }
-
-</style>
 
 <Base title="main page">
   <h1>Build and Deplay session 1</h1>
   <p>Here is aur group photo</p>
 
   <img src="/public/images/Build-and-Deploy-Session-1.png" alt="Group photo from first session of BaD">
+
+  <Card title="Hello World">
+    <p>
+      Lorem ipsum, dolor sit amet consectetur adipisicing elit. Recusandae impedit praesentium fuga voluptatibus dolorem facere facilis? Quos tenetur, ducimus ad facilis voluptates maxime eligendi, saepe suscipit labore ipsam veritatis possimus.
+    </p>
+  </Card>
 
   <p>
     Lorem ipsum dolor sit amet consectetur adipisicing elit. 
