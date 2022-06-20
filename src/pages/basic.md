@@ -1,5 +1,6 @@
 ---
 layout: ../layout/BasicPage.astro
+setup: import Card from '../components/Card.astro'
 title: Basic Page
 ---
 
